@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1C59C4014EB3D09A2328ABE4696A5C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1ED258139E37C5BB75F44943BD18FF50 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1081EF5F54B7A3A3DFDC6D98D7A2568 /* ReplaceMe.swift */; };
+		366ECD50B062DF11801C7217F4A71716 /* FrameworkPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7864CD37ED839E0942DE27567A22B7 /* FrameworkPod-dummy.m */; };
 		5D79739BBB9349F9F8B9D19F909CC337 /* Pods-FrameworkPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E251CE5D94AED348999B554C663785 /* Pods-FrameworkPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E400F37F98644C0A89763FDEEB00D6 /* Pods-FrameworkPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACCD490E2DF62C9A483CA3DF15217 /* Pods-FrameworkPod_Example-dummy.m */; };
 		C3F1A9EA55FB274E25BDDDC82FDCBC50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D5849FFC4A7F473451CBA1A8CCF1712A /* Pods-FrameworkPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D7F29AE74EAB939EE7CC4E14D2DB1 /* Pods-FrameworkPod_Tests-dummy.m */; };
 		DA77CF31D3B67E846D2EC6BA6945DC49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBADBF34AC6C938DD58F9EE1FF8BCFB4 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6A94C7782E09970CBB4FAD81B8499 /* TestObject.swift */; };
 		F1A64132C3D8A7A81FD929908EBFB470 /* Pods-FrameworkPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F295EDCE547AA86CAA49C6C465C8D2F /* Pods-FrameworkPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0456F13541141AB364608320F6CD72 /* FrameworkPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A118F3BC6849788602E2937CCF0A8A6F /* FrameworkPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE2049B52F77440AB2E934AACCA3CE22 /* FrameworkPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7864CD37ED839E0942DE27567A22B7 /* FrameworkPod-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		8E5403AAD795A4C7ADED9CE87E174BE2 /* Pods-FrameworkPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrameworkPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9DD364762BA905E87A97B51BCE5E33 /* Pods-FrameworkPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FrameworkPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1081EF5F54B7A3A3DFDC6D98D7A2568 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		9EE6A94C7782E09970CBB4FAD81B8499 /* TestObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
 		A118F3BC6849788602E2937CCF0A8A6F /* FrameworkPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FrameworkPod-umbrella.h"; sourceTree = "<group>"; };
 		A72FD8D5456F612352198DA5ECF3CA62 /* Pods-FrameworkPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FrameworkPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA7864CD37ED839E0942DE27567A22B7 /* FrameworkPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FrameworkPod-dummy.m"; sourceTree = "<group>"; };
@@ -99,15 +99,6 @@
 				C5C5DA29B2BDF806F9C15F55937B5DD3 /* Pods-FrameworkPod_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		77B5376C82BDEAE619276FFE2041C9DB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A1081EF5F54B7A3A3DFDC6D98D7A2568 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7B8D542D6ADEE6F311FDCB8635EA6691 /* Support Files */ = {
@@ -202,7 +193,7 @@
 		D039F10196A283EE7374391ED70CA43A /* FrameworkPod */ = {
 			isa = PBXGroup;
 			children = (
-				77B5376C82BDEAE619276FFE2041C9DB /* Classes */,
+				F3F04DB7F5C04E33EBD59B09FF4CC5AB /* Classes */,
 			);
 			name = FrameworkPod;
 			path = FrameworkPod;
@@ -222,6 +213,15 @@
 				B29E773B1E7FB6B8F8815CAEDE832717 /* FrameworkPod */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3F04DB7F5C04E33EBD59B09FF4CC5AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9EE6A94C7782E09970CBB4FAD81B8499 /* TestObject.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C98CBA17FF94F9C0CC1BF74040F34EF /* Build configuration list for PBXNativeTarget "FrameworkPod" */;
 			buildPhases = (
-				395DA2BA11426A89F888AAE8F634E99E /* Sources */,
+				70092DC36BBC4C5B1F4DB9C8E92DD780 /* Sources */,
 				1DE725A0B7BF5C820D011CFDA9FF7590 /* Frameworks */,
 				0B911195953980EC155D19F82E9DECBC /* Headers */,
 			);
@@ -343,20 +343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		395DA2BA11426A89F888AAE8F634E99E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE2049B52F77440AB2E934AACCA3CE22 /* FrameworkPod-dummy.m in Sources */,
-				1ED258139E37C5BB75F44943BD18FF50 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6CA98CD739E3681812E7B6D4EA73EF6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D5849FFC4A7F473451CBA1A8CCF1712A /* Pods-FrameworkPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70092DC36BBC4C5B1F4DB9C8E92DD780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366ECD50B062DF11801C7217F4A71716 /* FrameworkPod-dummy.m in Sources */,
+				DBADBF34AC6C938DD58F9EE1FF8BCFB4 /* TestObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

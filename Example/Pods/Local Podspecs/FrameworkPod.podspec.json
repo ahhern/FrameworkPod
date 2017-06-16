@@ -1,18 +1,18 @@
 {
   "name": "FrameworkPod",
   "version": "0.1.0",
-  "summary": "A short description of FrameworkPod.",
+  "summary": "My first pod",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Adrian Hernandez/FrameworkPod",
+  "homepage": "https://github.com/vonnassau/FrameworkPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Adrian Hernandez": "adhernandez@yellowpepper.com"
+    "Adrian Hernandez": "adrihern91@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Adrian Hernandez/FrameworkPod.git",
+    "git": "https://github.com/vonnassau/FrameworkPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
