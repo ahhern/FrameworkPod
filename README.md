@@ -22,7 +22,7 @@ pod "FrameworkPod"
 
 ## Author
 
-Adrian Hernandez, adhernandez@yellowpepper.com
+Adrian Hernandez
 
 ## License
 
