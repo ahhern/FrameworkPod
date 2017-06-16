@@ -1,0 +1,22 @@
+{
+  "name": "FrameworkPod",
+  "version": "0.1.0",
+  "summary": "A short description of FrameworkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Adrian Hernandez/FrameworkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Adrian Hernandez": "adhernandez@yellowpepper.com"
+  },
+  "source": {
+    "git": "https://github.com/Adrian Hernandez/FrameworkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FrameworkPod/Classes/**/*"
+}
